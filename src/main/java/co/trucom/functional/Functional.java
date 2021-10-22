@@ -17,7 +17,7 @@ public class Functional {
 		};
 
 		Long value = stringDouble.apply("1234");
-		System.out.println(value);
+		System.out.println("Doubling long value of string \"1234\": " + value);
 
 		Predicate<Integer> isEven = (num) -> num % 2 == 0;
 		System.out.println("19 is even: " + isEven.test(19));
